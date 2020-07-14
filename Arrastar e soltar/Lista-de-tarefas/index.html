@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="boards">
+        <div class="board">
+            <h3>Fazer</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true"> 
+                    <div class="status green"></div>
+                    <div class="content"> Levantamento de Pendências</div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>Em progresso</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true"> 
+                    <div class="status blue"></div>
+                    <div class="content"> Relatório Finanaceiro</div>
+                </div>
+            </div>
+        </div>
+        <div class="board">
+            <h3>Feito</h3>
+            <div class="dropzone">
+                <div class="card" draggable="true"> 
+                    <div class="status red"></div>
+                    <div class="content"> Análise de indicadores </div>
+                </div>
+                    <div class="card" draggable="true"> 
+                        <div class="status violet"></div>
+                        <div class="content"> Controle de Atenedimento </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
